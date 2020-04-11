@@ -1,3 +1,5 @@
+//–°—É—Å–ª–æ–≤ –ò–≤–∞–Ω, –ª–∞–±–æ—Ä–∞—Ç–æ—Ä–Ω–∞—è –ø–æ –∫–ª–∞—Å—Å–∞–º ‚Ññ4 (–ü—Ä–æ—Å—Ç–æ–µ –Ω–∞—Å–ª–µ–¥–æ–≤–∞–Ω–∏–µ. –ü—Ä–∏–Ω—Ü–∏–ø –ø–æ–¥—Å—Ç–∞–Ω–æ–≤–∫–∏), 8 –≤–∞—Ä–∏–∞–Ω—Ç 
+
 #include "Triad.h"
 #include <iostream>
 #include"Date.h"
@@ -7,14 +9,14 @@ using namespace std;
 void main()
 {
 	setlocale(LC_ALL, "rus");
-	cout << "\n–‡·ÓÚ‡ÂÏ Ò ÍÎ‡ÒÒÓÏ Triad\n";
-	cout << "«‡ÔÓÎÌËÚÂ ÔÓÎˇ Ó·˙ÂÍÚ‡ ÍÎ‡ÒÒ‡ Triad\n";
+	cout << "\n–†–∞–±–æ—Ç–∞–µ–º —Å –∫–ª–∞—Å—Å–æ–º Triad\n";
+	cout << "–ó–∞–ø–æ–ª–Ω–∏—Ç–µ –ø–æ–ª—è –æ–±—ä–µ–∫—Ç–∞ –∫–ª–∞—Å—Å–∞ Triad\n";
 	Triad a;
 	cin >> a;
-	cout << "\nŒ·˙ÂÍÚ 'a': ";
+	cout << "\n–û–±—ä–µ–∫—Ç 'a': ";
 	cout << a;
 	Triad b(4, 3, 2);
-	cout << "\nŒ·˙ÂÍÚ 'b': ";
+	cout << "\n–û–±—ä–µ–∫—Ç 'b': ";
 	cout << b;
 	if (a > b)
 	{
@@ -24,53 +26,53 @@ void main()
 		cout << "a < b" << endl;
 	else
 		cout << "a = b" << endl;
-	cout << "\nœËÒ‚ÓËÏ Ó·˙ÂÍÚÛ 'a' ÔÓÎˇ Ó·˙ÂÍÚ‡ 'b'";
+	cout << "\n–ü—Ä–∏—Å–≤–æ–∏–º –æ–±—ä–µ–∫—Ç—É 'a' –ø–æ–ª—è –æ–±—ä–µ–∫—Ç–∞ 'b'";
 	a = b;
-	cout << "\nŒ·˙ÂÍÚ 'a': ";
+	cout << "\n–û–±—ä–µ–∫—Ç 'a': ";
 	cout << a;
 	b++;
-	cout << "œËÏÂÌËÏ ÓÔÂ‡ˆË˛ ++ Í Ó·ÂÍÚÛ 'b'";
-	cout << "\nŒ·˙ÂÍÚ 'b': ";
+	cout << "–ü—Ä–∏–º–µ–Ω–∏–º –æ–ø–µ—Ä–∞—Ü–∏—é ++ –∫ –æ–±–µ–∫—Ç—É 'b'";
+	cout << "\n–û–±—ä–µ–∫—Ç 'b': ";
 	cout << b;
-	cout << "\n–‡·ÓÚ‡ÂÏ Ò ÍÎ‡ÒÒÓÏ Data\n";
+	cout << "\n–†–∞–±–æ—Ç–∞–µ–º —Å –∫–ª–∞—Å—Å–æ–º Data\n";
 	Date A;
 	Date B;
 
 M:
 
-	cout << "\n«‡ÔÓÎÌËÚÂ Ó·˙ÂÍÚ Date A:";
+	cout << "\n–ó–∞–ø–æ–ª–Ω–∏—Ç–µ –æ–±—ä–µ–∫—Ç Date A:";
 	cin >> A;
-	cout << "\n«‡ÔÓÎÌËÚÂ Ó·˙ÂÍÚ Date B:";
+	cout << "\n–ó–∞–ø–æ–ª–Ω–∏—Ç–µ –æ–±—ä–µ–∫—Ç Date B:";
 	cin >> B;
-	cout << "\nŒ·˙ÂÍÚ Date A:";
+	cout << "\n–û–±—ä–µ–∫—Ç Date A:";
 	cout << A;
-	cout << "\nŒ·˙ÂÍÚ Date B:";
+	cout << "\n–û–±—ä–µ–∫—Ç Date B:";
 	cout << B;
-	cout << "\n—‡‚ÌËÏ ¿ Ë ¬:\n";
+	cout << "\n–°—Ä–∞–≤–Ω–∏–º –ê –∏ –í:\n";
 
 	cout << "\nA > B - ";
-	if (A > B) cout << "ËÒÚËÌ‡\n";
-	else cout << "ÎÓÊ¸\n";
+	if (A > B) cout << "–∏—Å—Ç–∏–Ω–∞\n";
+	else cout << "–ª–æ–∂—å\n";
 
 	cout << "\nA < B - ";
-	if (A < B) cout << "ËÒÚËÌ‡\n";
-	else cout << "ÎÓÊ¸\n";
+	if (A < B) cout << "–∏—Å—Ç–∏–Ω–∞\n";
+	else cout << "–ª–æ–∂—å\n";
 
 	cout << "\nA <= B - ";
-	if (A <= B) cout << "ËÒÚËÌ‡\n";
-	else cout << "ÎÓÊ¸\n";
+	if (A <= B) cout << "–∏—Å—Ç–∏–Ω–∞\n";
+	else cout << "–ª–æ–∂—å\n";
 
 	cout << "\nA >= B - ";
-	if (A >= B) cout << "ËÒÚËÌ‡\n";
-	else cout << "ÎÓÊ¸\n";
+	if (A >= B) cout << "–∏—Å—Ç–∏–Ω–∞\n";
+	else cout << "–ª–æ–∂—å\n";
 
 	cout << "\nA == B - ";
-	if (A == B) cout << "ËÒÚËÌ‡\n";
-	else cout << "ÎÓÊ¸\n";
+	if (A == B) cout << "–∏—Å—Ç–∏–Ω–∞\n";
+	else cout << "–ª–æ–∂—å\n";
 
 	int choose;
 
-	cout << "\nœÓ‚ÚÓ - 1\n¬˚ıÓ‰ - 0\n";
+	cout << "\n–ü–æ–≤—Ç–æ—Ä - 1\n–í—ã—Ö–æ–¥ - 0\n";
 	cin >> choose;
 	if (choose == 1) goto M;
 }
