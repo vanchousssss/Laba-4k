@@ -1,0 +1,7 @@
+﻿  Date.cpp
+  Main.cpp
+C:\Users\Иван\OneDrive\Рабочий стол\(21)Лаба 4к\Main.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Triad.cpp
+  Создание кода...
+C:\Users\Иван\OneDrive\Рабочий стол\(21)Лаба 4к\Triad.cpp(78): warning C4172: возвращение адреса локальной или временной переменной : p
+  (21)Лаба 4к.vcxproj -> C:\Users\Иван\OneDrive\Рабочий стол\(21)Лаба 4к\Debug\(21)Лаба 4к.exe
